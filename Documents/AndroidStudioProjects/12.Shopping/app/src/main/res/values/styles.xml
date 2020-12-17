@@ -1,0 +1,29 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--选中的样式-->
+    <style name="bottom_selected_text">
+        <item name="android:textColor">#FE4226</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!--没有选中的样式-->
+    <style name="bottom_normal_text">
+        <item name="android:textColor">#6C7175</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+</resources>
